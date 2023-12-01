@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Payment Page</title>
+
+    <!-- css page link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap page css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- navber section start -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="payment.html"><img style="width: 100%; height: 80px;" src="website-logo.png" alt=""></a>
+          <div class="collapse  navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Collection
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="man-product.html">Man</a></li>
+                  <li><a class="dropdown-item" href="women-collection.html">Wommen</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="kids-collection.html">Kids</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="payment.html">Payment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contract.html">ContactUs</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- navber section end -->
+
+     <!-- ======= Breadcrumbs banner start ======= -->
+     <div class="Breadcrumbs-banner d-flex align-items-center" style="background-image: url('payment-page/banner/banner.jpg'); background-size: cover;">
+      <div class="container position-relative d-flex flex-column align-items-center justify-content-center">
+
+        <h2 class="Breadcrumbs-banner-title">Payment</h2>
+        <ol style="font-size: 25px; font-weight: 600; font-style: italic;">
+          <li class="d-inline-block"><a href="index.html">Home</a></li> /
+          <li class="d-inline-block">Payment</li>
+        </ol>
+
+      </div>
+    </div><!-- Breadcrumbs banner end -->
+
+    
+
+    <!-- offer section start -->
+      <section class="payment-mood">
+        <img class="offer-banner" src="women-collection/dress-collection/women-dress-title-banner.png" alt="">
+  <div class="offer-title-box">
+    <img class="offer-title-image" src="payment-page/payment-mode/payment-title.png" alt="">
+ </div>
+        <div class="payment-mood-main-div">
+        <div class="payment-sec container">
+
+          <div class="payment-mood-sub-div">
+            <div class="payment-mood-offer-box">
+              <h1>Special Discount <img class="payment-mood-title-bar-img" src="payment-page/payment-mode/percentage.png" alt="image not found"></h1>
+              <h2>10% Cashback <br> On UPI Payment..</h2>
+              <p>Lorem Ipsum simply dolor sit <br> Amet, consecteture adipiscing <br> Vestibulum vestibulum</p>
+              <input type="number" placeholder=" ENTER UPI NUMBER">
+              <input type="number" placeholder="VERIFY OTP">
+              <button>PAYMENT</button>
+            </div>
+          </div>
+
+          <div class="payment-mood2">
+            <form action="">
+            <div class="payment-dabit-card">
+              <div class="payment-dabit-card-main-div">
+                <div class="payment-dabit-card-header">
+                  <div class="payment-dabit-card-logo">
+                    <img class="payment-dabit-card-logo-img" src="payment-page/images/logo.png" alt="">
+                    <h2 class="payment-dabit-card-name"> Master Card </h2>
+                  </div>
+                  <img class="payment-dabit-card-chip-img" src="payment-page/images/chip.png" alt="">
+                </div>
+
+                
+                <div class="payment-dabit-card-details">
+                  <div class="payment-dabit-card-full-details">
+                    <h2 class="payment-dabit-card-number-title">Card Number</h2>
+                    <div class="d-flex flex-row align-items-center justify-content-center">
+                      <input class="payment-dabit-card-details-number" type="number" placeholder="" required>
+                      <input class="payment-dabit-card-details-number" type="number" placeholder="" required>
+                      <input class="payment-dabit-card-details-number" type="number" placeholder="" required>
+                      <input class="payment-dabit-card-details-number" type="number" placeholder="" required>
+                    </div>
+                    <input class="payment-dabit-card-details-name" type="text" placeholder="Card Holder Name" required>
+                  </div>
+                  <div class="payment-dabit-card-valid-details">
+                    <h2 class="payment-dabit-card-valid-title">Valid Thru</h2>
+                    <input class="payment-dabit-card-date" type="text" placeholder="MM/YY" required>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="categories-button" type="submit" name="button" style="--clr:#156c02;--i:31;margin-left: 20%;"><span class="categories-button-span" style="font-size: 25px;">PAY NOW</span></a>
+          </form>
+          </div>
+
+        </div>
+        </div>  
+        
+      </section>
+    <!-- offer section end -->
+
+     <!-- footer section start -->
+  <footer class="footer">
+    <div class="footer-main-div container">
+
+        <div class="footer-sub-div1">
+            <div class="footer-sub-child-div1">
+                <img class="baloon-img" src="website-logo.png" alt="image not founfd">
+                <p>
+                    Lorem Ipsum Dolor Sit <br> Amet Consectetur <br> Adipisicing Elit. <br> Vestibulum.
+                </p>
+            </div>
+
+            <div class="footer-sub-child-div2">
+                <h1>Top Destination</h1>
+                <p>U.S.A</p>
+                <p>Paris</p>
+                <p>Dubai</p>
+                <p>Vietnam</p>
+                <p>Thailand</p>
+                <p>Malasiya</p>
+            </div>
+
+            <div class="footer-sub-child-div3">
+              <h1>Our Service</h1>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="#">Collection</a>
+              <a href="payment.html">Payment</a>
+              <a href="contract.html">Contact</a>
+          </div>
+
+            <div class="footer-sub-child-div4">
+                <h1>Help Center</h1>
+                <p>FAQ</p>
+                <p>T & S</p>
+                <p> Customer</p>
+                <p class="service"> Service</p>
+            </div>
+
+        </div>
+
+        <div class="footer-sub-div2">
+            <img src="footer/masterCard.png" alt="image not found">
+            <img src="footer/visa.png" alt="image not found">
+            <img src="footer/google-pay.png" alt="image not found">
+            <img src="footer/phonepay.png" alt="omage not found">
+        </div>
+
+        <div class="footer-sub-div3">
+            <h1>Don't Miss Out</h1>
+            <input class="foot-email" type="email" placeholder="Email">
+            <button>Subscribe</button>
+        </div>
+        <hr>  
+        
+    </div>
+
+</footer>
+
+<!-- footer section End -->
+
+<!-- designer contact Section start-->
+<footer class="designer">
+  <div class="designer-main-div">
+   <!-- Inline css use -->
+     <div style="display: flex; align-items: center; justify-content: center;">
+   <!-- Inline css End -->
+         <div class="designer-comment">
+            <p class="designer-text">@2023 Copyright. All rights reserved. <br>
+                Developer By <a href="https://www.instagram.com/sayak_adak_/">Sayak Adak</a></p>
+         </div>
+     </div>
+     <div class="designer-sub-div2">
+           <div class="designer-social-media">
+               <a href=""> facebook</a>
+               <a href="">Instagram</a>
+               <a href=""> Twitter</a>
+           </div>
+     </div>
+  </div>
+</footer>
+<!-- designer contact Section end -->
+
+<!-- scrolling button -->
+<div class="scrole">
+<a href="#"> <img class="scrole-img1" src="footer/scroolbutton-background.png" alt="image not found"> </a>
+<a href="#"> <img class="scrole-img2" src="footer/scroolbutton.png" alt="image not found"> </a>
+</div>
+<!-- scrolling button end -->
+
+
+     <!-- bootstrap page link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- external javascript page -->
+    <script src="script.js"></script>
+</body>
+</html>
